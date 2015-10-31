@@ -9,7 +9,7 @@ return array(
 	'DB_HOST'   => '127.0.0.1', // 服务器地址
 	'DB_NAME'   => 'zuo', // 数据库名
 	'DB_USER'   => 'root', // 用户名
-	'DB_PWD'    => '4013465', // 密码
+	'DB_PWD'    => '', // 密码
 	'DB_PORT'   => 3306, // 端口
 	'DB_PREFIX' => '', // 数据库表前缀 
 	'DB_CHARSET'=> 'utf8', // 字符集
@@ -21,7 +21,7 @@ return array(
    	'MAIL_USERNAME' =>'503241187@qq.com',//你的邮箱名
   	'MAIL_FROM' =>'503241187@qq.com',//发件人地址
   	'MAIL_FROMNAME'=>'做吧',//发件人姓名
- 	'MAIL_PASSWORD' =>'4013465',//邮箱密码
+ 	'MAIL_PASSWORD' =>'',//邮箱密码
 	'MAIL_CHARSET' =>'utf-8',//设置邮件编码
  	 'MAIL_ISHTML' =>TRUE, // 是否HTML格式邮件
 
