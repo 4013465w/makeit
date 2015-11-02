@@ -88,45 +88,28 @@
 					<input id='password' type="password" class="mui-input-clear mui-input" placeholder="请输入密码">
 				</div>
 			</form>
-			<form class="mui-input-group">
-				<ul class="mui-table-view mui-table-view-chevron">
-					<li class="mui-table-view-cell">
-						自动登录
-						<div id="autoLogin" class="mui-switch">
-							<div class="mui-switch-handle"></div>
-						</div>
-					</li>
-				</ul>
-			</form>
 			<div class="mui-content-padded">
 				<button id='login' class="mui-btn mui-btn-block mui-btn-primary">登录</button>
 				<div class="link-area"><a id='reg'>注册账号</a> <span class="spliter">|</span> <a id='forgetPassword'>忘记密码</a>
 				</div>
-			</div>
-			<div class="mui-content-padded oauth-area">
-
 			</div>
 		</div>
 		<script src="../js/mui.min.js"></script>
 		<script src="../js/mui.enterfocus.js"></script>
 		<script src="../js/app.js"></script>
 		<script>
-		ss=2;
-		(function(){
-			alert(ss)
-		})();
+//		alert(_URL_); 
 			(function($, doc) {
 				$.init({
 					statusBarBackground: '#f7f7f7'
 				});
 				$.plusReady(function() {
-					alert(ss)
 					plus.screen.lockOrientation("portrait-primary");
 					var settings = app.getSettings();
 					var state = app.getState();
 					var mainPage = $.preload({
-						"id": 'main',
-						"url": 'main.html'
+						"id": 'index',
+						"url": '../index.html'
 					});
 					var toMain = function() {
 						$.fire(mainPage, 'show', null);
