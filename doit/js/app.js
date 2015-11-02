@@ -3,11 +3,43 @@
  * 当您要参考这个演示程序进行相关 app 的开发时，
  * 请注意将相关方法调整成 “基于服务端Service” 的实现。
  **/
-(function($, owner) {
+/*
+ *
+ */
+(function($, app) {
+	/*
+	 *
+	 */
+	app.result = function(url, datas,loding=1) {
+		if(loding){
+			plus.nativeUI.showWaiting( title, options );
+		}
+		mui.ajax(url, {
+			data: datas,
+			dataType: 'json', //服务器返回json格式数据
+			type: 'post', //HTTP请求类型
+			timeout: 5000, //超时时间设置为10秒；
+			complete:function(){
+				if(loding){
+					plus.nativeUI.closeWaiting();
+				}
+			},
+			success: function(data) {
+				//服务器返回响应，根据响应结果，分析是否登录成功；
+				return data;
+			},
+			error: function(xhr, type, errorThrown) {
+				//异常处理；
+				console.log(type);
+			}
+		});
+	}
+
+
 	/**
 	 * 用户登录
 	 **/
-	owner.login = function(loginInfo, callback) {
+	app.login = function(loginInfo, callback) {
 		callback = callback || $.noop;
 		loginInfo = loginInfo || {};
 		loginInfo.account = loginInfo.account || '';
@@ -23,24 +55,24 @@
 			return loginInfo.account == user.account && loginInfo.password == user.password;
 		});
 		if (authed) {
-			return owner.createState(loginInfo.account, callback);
+			return app.createState(loginInfo.account, callback);
 		} else {
 			return callback('用户名或密码错误');
 		}
 	};
 
-	owner.createState = function(name, callback) {
-		var state = owner.getState();
+	app.createState = function(name, callback) {
+		var state = app.getState();
 		state.account = name;
 		state.token = "token123456789";
-		owner.setState(state);
+		app.setState(state);
 		return callback();
 	};
 
 	/**
 	 * 新用户注册
 	 **/
-	owner.reg = function(regInfo, callback) {
+	app.reg = function(regInfo, callback) {
 		callback = callback || $.noop;
 		regInfo = regInfo || {};
 		regInfo.account = regInfo.account || '';
@@ -63,7 +95,7 @@
 	/**
 	 * 获取当前状态
 	 **/
-	owner.getState = function() {
+	app.getState = function() {
 		var stateText = localStorage.getItem('$state') || "{}";
 		return JSON.parse(stateText);
 	};
@@ -71,7 +103,7 @@
 	/**
 	 * 设置当前状态
 	 **/
-	owner.setState = function(state) {
+	app.setState = function(state) {
 		state = state || {};
 		localStorage.setItem('$state', JSON.stringify(state));
 		//var settings = owner.getSettings();
@@ -87,7 +119,7 @@
 	/**
 	 * 找回密码
 	 **/
-	owner.forgetPassword = function(email, callback) {
+	app.forgetPassword = function(email, callback) {
 		callback = callback || $.noop;
 		if (!checkEmail(email)) {
 			return callback('邮箱地址不合法');
@@ -98,7 +130,7 @@
 	/**
 	 * 获取应用本地配置
 	 **/
-	owner.setSettings = function(settings) {
+	app.setSettings = function(settings) {
 		settings = settings || {};
 		localStorage.setItem('$settings', JSON.stringify(settings));
 	}
@@ -106,7 +138,7 @@
 	/**
 	 * 设置应用本地配置
 	 **/
-	owner.getSettings = function() {
+	app.getSettings = function() {
 		var settingsText = localStorage.getItem('$settings') || "{}";
 		return JSON.parse(settingsText);
 	}

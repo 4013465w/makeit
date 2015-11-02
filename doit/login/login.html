@@ -111,11 +111,16 @@
 		<script src="../js/mui.enterfocus.js"></script>
 		<script src="../js/app.js"></script>
 		<script>
+		ss=2;
+		(function(){
+			alert(ss)
+		})();
 			(function($, doc) {
 				$.init({
 					statusBarBackground: '#f7f7f7'
 				});
 				$.plusReady(function() {
+					alert(ss)
 					plus.screen.lockOrientation("portrait-primary");
 					var settings = app.getSettings();
 					var state = app.getState();
