@@ -85,18 +85,19 @@ class UserController extends Controller
 	**/
 	public function get_retrieve_password(){
 		$User=M('User');
-		$map['user_mail']=$_GET['user_mail'];//必须在后面加一个.com
-		$data = $User->field('user_id,user_pwd')->where($map)->find();
+		 $map['user_mail']=$_GET['user_mail'].'.com';//必须在后面加一个.com
+		 $data = $User->field('user_id,user_pwd')->where($map)->find();
+		
 		if(!$data){
 			$this->ajaxReturn(0);
 			exit();
 		}
-		//var_dump($data);
+		
 		$to = $map['user_mail'];
 		$subject = "找回密码";
 		$yz=rand(100000,1000000);//随机数生成
 		$url='/retrieve_password/'.$data['user_id'].'/'.$yz;//构造生产地址
-		$message = "点击链接修改密码（有效期30分钟）: ".U($url) ;
+		 $message = "点击链接修改密码（有效期30分钟）: ".U($url) ;
 		//session(array('name'=>'rp'.$data['user_id'],'expire'=>1));
 		 session('rp'.$data['user_id'],$yz);
 		$data = SendMail($to,$subject ,$message);

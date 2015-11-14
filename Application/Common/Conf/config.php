@@ -21,7 +21,7 @@ return array(
    	'MAIL_USERNAME' =>'503241187@qq.com',//你的邮箱名
   	'MAIL_FROM' =>'503241187@qq.com',//发件人地址
   	'MAIL_FROMNAME'=>'做吧',//发件人姓名
- 	'MAIL_PASSWORD' =>'',//邮箱密码
+ 	'MAIL_PASSWORD' =>'4013465',//邮箱密码
 	'MAIL_CHARSET' =>'utf-8',//设置邮件编码
  	 'MAIL_ISHTML' =>TRUE, // 是否HTML格式邮件
 

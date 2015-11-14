@@ -6,6 +6,7 @@
     <title></title>
     <script src="js/mui.min.js"></script>
     <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" charset="utf-8">
       	mui.init();
     </script>
@@ -13,23 +14,40 @@
 <body>
 	<header class="mui-bar mui-bar-nav">
 			<h1 id="title" class="mui-title">DOIT</h1>
+			<a id="info" class="mui-icon mui-icon-info-filled mui-pull-right" style="color: #999;"></a>
 	</header>
-	
+	<div class="mui-content">
+		    <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
+		        <li class="mui-table-view-cell">
+		            <div class="mui-table">
+		                <div class="mui-table-cell mui-col-xs-10">
+		                    <h4 class="mui-ellipsis">信息化推进办公室张彦合同付款信息化</h4>
+		                    <p class="mui-h6 mui-ellipsis index_wllipsis">Hi，李明明，申请交行信息卡，100元等你拿，李明明，申请交行信息卡，100元等你拿，</p>
+		                    <h6>申请人：李四</h6>
+		                </div>
+		                <div class="mui-table-cell mui-col-xs-2 mui-text-right">
+		                    <span class="mui-h5">12:25</span>
+		                </div>
+		            </div>
+		        </li>
+		     </ul>
+	</div>
 	
 		<nav class="mui-bar mui-bar-tab">
 			<a id="defaultTab" class="mui-tab-item mui-active" href="tab-webview-subpage-about.html">
 				<span class="mui-icon mui-icon-home"></span>
 				<span class="mui-tab-label">首页</span>
 			</a>
-			<a class="mui-tab-item" href="tab-webview-subpage-chat.html">
-				<span class="mui-icon mui-icon-email"><span class="mui-badge">9</span></span>
-				<span class="mui-tab-label">消息</span>
-			</a>
-			<a class="mui-tab-item" href="tab-webview-subpage-contact.html">
+				<a class="mui-tab-item" href="tab-webview-subpage-contact.html">
 				<span class="mui-icon mui-icon-contact"></span>
 				<span class="mui-tab-label">通讯录</span>
 			</a>
-			<a class="mui-tab-item" href="tab-webview-subpage-setting.html">
+			<a class="mui-tab-item" href="tab-webview-subpage-chat.html">
+				<span class="mui-icon mui-icon-email"><span class="mui-badge">9</span></span>
+				<span class="mui-tab-label">订阅</span>
+			</a>
+		
+			<a class="mui-tab-item" href="login/login.html">
 				<span class="mui-icon mui-icon-gear"></span>
 				<span class="mui-tab-label">设置</span>
 			</a>

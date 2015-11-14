@@ -80,8 +80,8 @@
 		<div class="mui-content">
 			<form id='login-form' class="mui-input-group">
 				<div class="mui-input-row">
-					<label>账号</label>
-					<input id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入账号">
+					<label>昵称</label>
+					<input id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入昵称">
 				</div>
 				<div class="mui-input-row">
 					<label>密码</label>
@@ -132,6 +132,7 @@
 					var regButton = doc.getElementById('reg');
 					var forgetButton = doc.getElementById('forgetPassword');
 					loginButton.addEventListener('tap', function(event) {
+						console.log('登陆按钮')
 						var loginInfo=[];
 						 loginInfo.account = accountBox.value;
 						    loginInfo.password = passwordBox.value;
@@ -145,10 +146,21 @@
 							plus.nativeUI.toast('密码最短为 6 个字符');
 						}
 						var users = JSON.parse(localStorage.getItem('$users') || '[]');
-						var url='index.php/user/login/'+loginInfo.account+'/'+loginInfo.password;
-						var result = app.result(url,'',1);
-						if(result)
+						var url='user/login/'+loginInfo.account+'/'+loginInfo.password;
+						app.ajax(url,'',1,function(data){
+							if(!data){
+								console.log('用户名或密码错误');
+								plus.nativeUI.toast('用户名或密码错误');
+								return 0;
+							}
+							console.log('登陆成功');
+							localStorage.setItem('$login',JSON.stringify(data));
 							toMain();
+						},function(){
+							console.log('登陆失败，稍后再试')
+						});
+						
+							
 					});
 					$.enterfocus('#login-form input', function() {
 						$.trigger(loginButton, 'tap');
@@ -157,6 +169,21 @@
 						$.openWindow({
 							url: 'forget_password.html',
 							id: 'forget_password',
+							show: {
+								aniShow: 'pop-in'
+							},
+							styles: {
+								popGesture: 'hide'
+							},
+							waiting: {
+								autoShow: false
+							}
+						});
+					}, false);
+					regButton.addEventListener('tap', function(event) {
+						$.openWindow({
+							url: 'reg.html',
+							id: 'reg',
 							show: {
 								aniShow: 'pop-in'
 							},

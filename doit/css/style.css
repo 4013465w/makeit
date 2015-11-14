@@ -6,3 +6,6 @@ body {
 	padding: 0px;
 }
 .mui-content{height: 100%;}
+.index_wllipsis{
+	white-space: normal;
+}

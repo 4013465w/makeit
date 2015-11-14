@@ -1,0 +1,360 @@
+[ 2015-11-14T13:25:58+08:00 ] 10.10.49.249 /zuo/index.php/home/User/create_user/wewwwwww/4013465w@sina.com/4013465
+ERR: 无法加载控制器:Home
+
+[ 2015-11-14T13:27:09+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwww/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003547s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-11-14T13:27:11+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwww/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003637s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0223s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-14T13:27:13+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwww/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-11-14T13:27:14+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwww/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003480s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-11-14T13:27:15+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwww/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003815s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-14T13:27:16+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwww/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003366s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2015-11-14T13:27:17+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwww/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003792s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-11-14T13:27:39+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwww/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003441s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] md5() expects at least 1 parameter, 0 given D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: INSERT INTO `user` (`user_nickname`,`user_mail`,`user_pwd`) VALUES ('wwwwww','4013465w@sina.com','401fd36c579ae4b051806a703debfe7b') [ RunTime:0.0094s ]
+SQL: UPDATE `user` SET `login`='7d4c307c0b4c1b01fe1753b4f986b9ac' WHERE `user_id` = 44 [ RunTime:0.0050s ]
+
+[ 2015-11-14T13:31:02+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/sddffffgty/1@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004784s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '1@sina.com' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] md5() expects at least 1 parameter, 0 given D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: INSERT INTO `user` (`user_nickname`,`user_mail`,`user_pwd`) VALUES ('sddffffgty','1@sina.com','401fd36c579ae4b051806a703debfe7b') [ RunTime:0.0085s ]
+SQL: UPDATE `user` SET `login`='16e3acb5ba3c6ee7cf78b31d20c5a069' WHERE `user_id` = 45 [ RunTime:0.0051s ]
+
+[ 2015-11-14T13:39:17+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwwe/4013465w@sina.com/111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005349s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] md5() expects at least 1 parameter, 0 given D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: INSERT INTO `user` (`user_nickname`,`user_mail`,`user_pwd`) VALUES ('wwwwwe','4013465w@sina.com','96e79218965eb72c92a549dd5a330112') [ RunTime:0.0127s ]
+SQL: UPDATE `user` SET `login`='8f5273941e13f7c77fc32ff711e99b79' WHERE `user_id` = 46 [ RunTime:0.0244s ]
+
+[ 2015-11-14T13:50:10+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwwe/4013465w@sina.com/111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004235s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-11-14T13:50:13+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/wwwwwe/4013465w@sina.com/111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004186s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-11-14T14:14:57+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004980s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: UPDATE `user` SET `login`='bc7e0d289d3436e552a17834f469343d' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2015-11-14T14:16:09+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004407s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0087s ]
+SQL: UPDATE `user` SET `login`='c14aca5c6973236cf27debecb60f8b02' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0139s ]
+
+[ 2015-11-14T14:19:40+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004528s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0207s ]
+SQL: UPDATE `user` SET `login`='b45bb1508f0bf2c762f53f030f44dcf0' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-11-14T14:19:56+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005836s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0151s ]
+SQL: UPDATE `user` SET `login`='5b89c4d0990df4f787af70639af596da' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2015-11-14T14:21:33+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004431s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: UPDATE `user` SET `login`='7b744e5d2098683fb147c7926d53514a' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-11-14T14:23:24+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006240s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: UPDATE `user` SET `login`='8dd9a3f42345180eb5d933d955631f8e' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0027s ]
+
+[ 2015-11-14T14:24:16+08:00 ] 10.10.49.249 /zuo/index.php/User/create_user/4013465/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006482s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] md5() expects at least 1 parameter, 0 given D:\wamp\www\zuo\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: INSERT INTO `user` (`user_nickname`,`user_mail`,`user_pwd`) VALUES ('4013465','4013465w@sina.com','401fd36c579ae4b051806a703debfe7b') [ RunTime:0.0081s ]
+SQL: UPDATE `user` SET `login`='3568d8159cbc0b4a1d73a9405fc4487b' WHERE `user_id` = 47 [ RunTime:0.0082s ]
+
+[ 2015-11-14T14:24:25+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005319s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: UPDATE `user` SET `login`='e1656f70549ca916a20404fa4c58465b' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-14T14:32:42+08:00 ] 10.10.49.249 /zuo/index.php/User/login/4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004973s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: UPDATE `user` SET `login`='f8ae55337fc6f7498272a1d8573258c5' WHERE `user_mail` = '' AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '' AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-11-14T14:32:45+08:00 ] 10.10.49.249 /zuo/index.php/User/login/4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004950s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: UPDATE `user` SET `login`='60fdf13896b1b9b8d3ea92c55d700c1f' WHERE `user_mail` = '' AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '' AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-11-14T14:33:02+08:00 ] 10.10.49.249 /zuo/index.php/User/login/4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: UPDATE `user` SET `login`='540f2ce42c9b1d9d2248c118c1dc28a6' WHERE `user_mail` = '' AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '' AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-11-14T14:33:35+08:00 ] 10.10.49.249 /zuo/index.php/User/get_retrieve_password4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004294s ]
+ERR: 非法操作:get_retrieve_password4013465w@sina.com
+
+[ 2015-11-14T14:33:57+08:00 ] 10.10.49.249 /zuo/index.php/User/get_retrieve_password/4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004119s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT `user_id`,`user_pwd` FROM `user` WHERE `user_mail` = '4013465w@sina' LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2015-11-14T14:53:27+08:00 ] 10.10.49.249 /zuo/index.php/User/get_retrieve_password/4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005502s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT `user_id`,`user_pwd` FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-11-14T14:54:25+08:00 ] 10.10.49.249 /zuo/index.php/User/get_retrieve_password/4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005778s ]
+
+[ 2015-11-14T14:54:27+08:00 ] 10.10.49.249 /zuo/index.php/User/get_retrieve_password/4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+
+[ 2015-11-14T14:54:50+08:00 ] 10.10.49.249 /zuo/index.php/User/get_retrieve_password/4013465w@sina.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006368s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT `user_id`,`user_pwd` FROM `user` WHERE `user_mail` = '4013465w@sina.com' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-11-14T15:21:02+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004378s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0310s ]
+SQL: UPDATE `user` SET `login`='75aeb02a5a3c309f56d03fb5cfab3ce7' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0059s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2015-11-14T15:21:18+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016766s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: UPDATE `user` SET `login`='6467445887fc6e01aeb03cf1f4d5e13a' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0094s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-14T15:21:21+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006508s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: UPDATE `user` SET `login`='0a78a4b023dcdd987ee45fca92468bbd' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0055s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-14T15:21:22+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005855s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0091s ]
+SQL: UPDATE `user` SET `login`='449fc2f77c7befaa86a6abe69f41951a' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0062s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-14T15:21:24+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005595s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0099s ]
+SQL: UPDATE `user` SET `login`='cc390c7cebe0e78a754227d2f5163929' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0110s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2015-11-14T15:21:24+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004492s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: UPDATE `user` SET `login`='cc390c7cebe0e78a754227d2f5163929' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0065s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-11-14T15:21:41+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006378s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: UPDATE `user` SET `login`='4f597cc279b06a889c8450f93c6a84a4' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0088s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0057s ]
+
+[ 2015-11-14T15:21:43+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005108s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+SQL: UPDATE `user` SET `login`='d3262334be048739f07e4b2a5874ec24' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2015-11-14T15:22:42+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024696s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: UPDATE `user` SET `login`='2296a46bbc1f6e8b798f8a125becaf89' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0024s ]
+
+[ 2015-11-14T15:22:57+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004281s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0107s ]
+SQL: UPDATE `user` SET `login`='d69904169d2003681b3cc9c5588106ab' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0170s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-11-14T15:23:06+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006262s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: UPDATE `user` SET `login`='dc50d74ddab8b857bc7369cc448d8104' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0092s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2015-11-14T15:23:08+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: UPDATE `user` SET `login`='433731031e341cd25cd2a02faa456bde' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-11-14T15:23:10+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004149s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: UPDATE `user` SET `login`='ec5dcc7f68de1024a840f6cb351a6cd5' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0062s ]
+
+[ 2015-11-14T15:23:12+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010896s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0147s ]
+SQL: UPDATE `user` SET `login`='1ef07bccbb1026c1eff0e30a650e12c0' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0152s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-11-14T15:23:31+08:00 ] 10.10.49.249 /zuo/index.php/user/login/4013465w@sina.com/4013465
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006478s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0097s ]
+SQL: UPDATE `user` SET `login`='f7f12b28ae33d7b7b37465d5b3638082' WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' [ RunTime:0.0052s ]
+SQL: SELECT * FROM `user` WHERE `user_mail` = '4013465w@sina.com' AND `user_pwd` = '401fd36c579ae4b051806a703debfe7b' LIMIT 1   [ RunTime:0.0007s ]
+
